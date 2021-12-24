@@ -1,0 +1,5 @@
+org\apache\log4j\RollingFileAppender.class
+org\apache\log4j\Category.class
+org\apache\log4j\LayoutWrapper.class
+org\apache\log4j\spi\LoggingEvent.class
+org\apache\log4j\PatternLayout.class
