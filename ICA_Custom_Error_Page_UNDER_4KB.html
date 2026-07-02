@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>$status Error</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    background: #f4f7fb;
+    color: #2f3b52;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: #172b4d;
+    color: #ffffff;
+    padding: 18px 26px;
+}
+
+.logo {
+    display: inline-block;
+    background: #ffffff;
+    color: #172b4d;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+
+.brand {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.wrap {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #dfe6ef;
+    border-radius: 8px;
+    display: inline-block;
+    max-width: 620px;
+    padding: 34px;
+    text-align: left;
+}
+
+.code {
+    color: #172b4d;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #253858;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.msg {
+    color: #56657f;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.info {
+    background: #f7f9fc;
+    border: 1px solid #e3e8ef;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.row {
+    margin-bottom: 8px;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}
+
+.label {
+    color: #172b4d;
+    display: inline-block;
+    font-weight: bold;
+    width: 96px;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<span class="logo">ICA</span>
+<span class="brand">Service Error</span>
+</div>
+<div class="wrap">
+<div class="card">
+<div class="code">$status</div>
+<div class="title">Request Cannot Be Processed</div>
+<div class="msg">
+The service is unable to process your request now. Please try again later.
+If the issue continues, contact support and provide the request details below.
+</div>
+<div class="info">
+<div class="row"><span class="label">Status</span>$status</div>
+<div class="row"><span class="label">Request ID</span>$request_id</div>
+</div>
+</div>
+</div>
+</body>
+</html>
